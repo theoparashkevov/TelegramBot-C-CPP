@@ -15,7 +15,8 @@ ___
 This bot uses the TgBot library. There is a detailed explanation how to compile such programs (with and without CMake) in the [library repository](https://github.com/reo7sp/tgbot-cpp).
 
 Use the code below to compile without CMake:
-``g++ telegram_bot.cpp -o telegram_bot --std=c++11 -I/usr/local/include -lTgBot -lboost_system -lssl -lcrypto -lpthread
+
+``g++ telegram_bot.cpp -o telegram_bot --std=c++11 -I/usr/local/include -lTgBot -lboost_system -lssl -lcrypto -lpthread ``
 
 
 
