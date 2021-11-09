@@ -1,0 +1,10 @@
+[Unit]
+Description=Telegram bot service
+
+[Service]
+KillMode=process
+Type=simple
+; ExecStart=/home/tcv/telegram_bot /home/tcv/.config/telegram_bot/<YOU CHAT ID HERE>/ 1
+
+[Install]
+WantedBy=multi-user.target
