@@ -9,6 +9,9 @@ ___
 ___
 The main idea of this program is to automate the prodcess of sending resource information about a particular machine using the Telegram API.
 You can find a detailed explanation here in my Medium article.
+- Using the TgBot library to create a parent process that spawns child processes
+- Each child process is responsible for one file. When that file gets modified the child process sends a signal to send the contents of the file to a pre-defined telegram chat_id
+- Using systemd to create and manage the Telegram Bot service
 
 # Compilation
 ___
