@@ -1,4 +1,4 @@
-# Telegram-Bot-C-CPP
+# TelegramBot-C-CPP
 A simple Telegram bot using the tgbot library that sends messages to a particular chat once a file inside a give directory gets modified.
 
 ___
